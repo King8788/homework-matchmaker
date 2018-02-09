@@ -1,0 +1,177 @@
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+clear: both;
+}
+
+
+
+
+header, footer {
+  background-color: black;
+ 
+}
+
+
+
+
+
+
+nav {
+  width: 100%;
+  height: 700px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  
+
+}
+
+
+header {
+  height: 200px;
+  width: 100%;
+ 
+}
+
+
+h1 {
+  color: yellow;
+  font-size: 36px;
+  font-family: bold;
+  text-indent: 26px;
+
+}
+
+
+ul {
+  float: right;
+  padding-right: 440px;
+}
+
+li {
+  display: inline;
+  color: white;
+  font-size: 22px;
+  float: left;
+  margin: 10px;
+ 
+}
+
+
+section {
+  height: 150px;
+  width: 100%;
+  background-color: lightgrey;
+  
+}
+
+main {
+  height: 500px;
+  width: 100%;
+  float: left;
+  background: url(../assets/coworking.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  padding-top: 20px;
+
+}
+
+article {
+  height: 420px;
+  width: 23%;
+  float: right;
+  background-color: white;
+  opacity: 0.8;
+  border: 2px;
+  border-color: lightgrey;
+  border-style: solid;
+  margin-top: 30px;
+
+}
+
+
+article > h1 {
+  color: black;
+  font-family: bold;
+  font-size: 32px;
+
+}
+
+
+article > p {
+  font-size: 19px;
+  padding-left: 30px;
+  padding-right: 14px;
+  padding-bottom: 10px;
+}
+
+article > aside {
+  background-color: yellow;
+  border-radius: 0%;
+  height: 40px;
+  width: 100px;
+  color: black;
+  font-family: bold;
+  font-size: 20px;
+  padding: 10px 23px 10px 20px;
+  display: inline;
+  margin: 24px;
+  
+}
+
+
+
+content > aside {
+  height:300px;
+  width: 30%;
+  float:left;
+  border-right: 1px;
+  border-style: solid;
+  border-color: lightgray;
+}
+
+content > section {
+  height:200px;
+  width: 30%;
+  float:left;
+}
+
+
+aside> h1 {
+  color: black;
+  font-family: bold;
+  font-size: 36px;
+}
+
+aside > p {
+  color: black;
+  font-size: 28px;
+  padding-left: 30px;
+  padding-right: 65px;
+}
+
+
+section > h1 {
+  color: black;
+  font-family: bold;
+  font-size: 36px;
+}
+
+
+section > p {
+  color: black;
+  font-size: 28px;
+  padding-left: 30px;
+  padding-right: 65px;
+
+}
+
+footer {
+  height: 75px;
+}
