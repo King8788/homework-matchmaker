@@ -41,7 +41,7 @@ header {
 }
 
 
-h1 {
+header > h1 {
   color: yellow;
   font-size: 36px;
   font-family: bold;
@@ -100,11 +100,12 @@ article > h1 {
   color: black;
   font-family: bold;
   font-size: 32px;
+  padding-left: 28px;
 
 }
 
 
-article > p {
+article > p  {
   font-size: 19px;
   padding-left: 30px;
   padding-right: 14px;
@@ -137,6 +138,7 @@ content > aside {
 }
 
 content > section {
+  background-color: white;
   height:200px;
   width: 30%;
   float:left;
@@ -158,6 +160,7 @@ aside > p {
 
 
 section > h1 {
+  background-color: white;
   color: black;
   font-family: bold;
   font-size: 36px;
@@ -165,6 +168,7 @@ section > h1 {
 
 
 section > p {
+  background-color: white;
   color: black;
   font-size: 28px;
   padding-left: 30px;
@@ -174,4 +178,15 @@ section > p {
 
 footer {
   height: 75px;
+  
+}
+
+
+footer > p {
+
+  color: white;
+  font-size: 20px;
+  text-indent: 20px;
+  padding-top: 23px;
+
 }
